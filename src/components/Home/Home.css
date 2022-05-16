@@ -1,0 +1,10 @@
+h1 {
+  position: absolute;
+  font-size: 10vw;
+  color: rgb(255, 0, 0);
+  opacity: 0.9;
+  margin-top: 1vw;
+  margin-left: 4vw;
+  width: 57%;
+  visibility: hidden;
+}

@@ -1,5 +1,13 @@
+import React from 'react';
+import './App.css';
+import Home from './components/Home/Home';
+
 const App = () => {
-  return <h1>HELLO SIMPLON !</h1>;
+  return (
+    <div className="app">
+      <Home />
+    </div>
+  );
 };
 
 export default App;
