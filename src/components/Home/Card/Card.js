@@ -1,9 +1,9 @@
 import React from 'react';
+import './Card.css';
 
-const Card = () => {
-    return <main className="card-container">
-        <div className="card"></div>
-        <div className="card"></div>
-        <div className="card"></div>
-    </main>
-}
+const Card = ({ name }) => {
+  console.log(name);
+  return <div className="card">{name}</div>;
+};
+
+export default Card;

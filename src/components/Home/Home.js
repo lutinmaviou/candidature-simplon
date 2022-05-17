@@ -1,4 +1,6 @@
 import React, { useEffect } from 'react';
+import fadeIn from '../../gsap/fadeIn';
+import Card from './Card/Card';
 import './Home.css';
 import HomeParticles from './HomeParticles';
 
@@ -8,6 +10,10 @@ const Home = () => {
       displayLetters();
     };
   }, []);
+
+  useEffect(() => {
+    fadeIn();
+  });
 
   const displayLetters = () => {
     const title = document.querySelector('.home-title');
@@ -32,6 +38,11 @@ const Home = () => {
     <>
       <HomeParticles />
       <h1 className="home-title space">Hello Simplon!</h1>
+      <main className="cards-container fred">
+        <Card name="Parcours" />
+        <Card name="Autodidacte" />
+        <Card name="Motivations" />
+      </main>
     </>
   );
 };

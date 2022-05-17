@@ -11,6 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
+/* Font : Rough-owl*/
+@font-face {
+  font-family: 'rough-owl';
+  src: url('../public/assets/fonts/rough_owl/RoughOwl-Regular.ttf');
+}
+
+.owl {
+  font-family: 'rough-owl';
+}
+
+/* Font : Space-age*/
 @font-face {
   font-family: 'space-age';
   src: url('../public/assets/fonts/space_age/spaceAge.ttf');

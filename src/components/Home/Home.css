@@ -1,10 +1,17 @@
 h1 {
-  position: absolute;
+  position: relative;
   font-size: 10vw;
   color: rgb(255, 0, 0);
-  opacity: 0.9;
   margin-top: 1vw;
   margin-left: 4vw;
   width: 57%;
   visibility: hidden;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  margin-top: 6%;
+  user-select: none;
 }
