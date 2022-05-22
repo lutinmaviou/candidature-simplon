@@ -11,9 +11,10 @@ const App = () => {
     <div className="app">
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/parcours" element={<Career />} />
-        <Route path="/autodidacte" element={<SelfTaught />} />
-        <Route path="/motivations" element={<Motives />} />
+        <Route path="/parcours/*" element={<Career />} />
+        <Route path="/autodidacte/*" element={<SelfTaught />} />
+        <Route path="/motivations/*" element={<Motives />} />
+        <Route path="/*" element={<Home />} />
       </Routes>
     </div>
   );
