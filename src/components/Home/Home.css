@@ -1,4 +1,4 @@
-h1 {
+.home-title {
   position: relative;
   font-size: 10vw;
   color: rgb(255, 0, 0);
@@ -13,5 +13,4 @@ h1 {
   justify-content: space-around;
   position: relative;
   margin-top: 6%;
-  user-select: none;
 }

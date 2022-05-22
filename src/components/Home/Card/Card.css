@@ -1,18 +1,19 @@
-.card {
+a {
   color: #ffffff;
   border: 0.3vw solid #ffffff;
   border-radius: 4%;
-  font-size: 4vw;
+  font-size: 5vw;
   width: 25%;
   height: 15vw;
   display: flex;
   justify-content: center;
   align-items: center;
   transition: 0.3s;
+  text-decoration: none;
   
 }
 
-.card:hover {
+a:hover {
   transform: scale(1.1);
   cursor: pointer;
 }
