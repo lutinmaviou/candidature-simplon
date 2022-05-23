@@ -1,0 +1,34 @@
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0%;
+}
+
+nav ul {
+  width: 100%;
+  margin: 0;
+  height: 5vw;
+  background: rgb(206, 30, 30);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+nav a {
+  color: white;
+  font-size: 2.3vw;
+}
+
+nav ul li {
+  list-style-type: none;
+  transition: 0.2s;
+}
+
+nav ul li:hover {
+  transform: scale(1.2);
+}
+
+nav ul li:hover a {
+  color: rgb(7, 96, 104);
+}

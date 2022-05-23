@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 import fadeIn from '../../gsap/fadeIn';
 import Card from './Card/Card';
 import './Home.css';
@@ -38,15 +38,16 @@ const Home = () => {
       <HomeParticles />
       <h1 className="home-title space">Hello Simplon!</h1>
       <main className="cards-container owl">
-        <Link to="/parcours">
+        <Link to="profile/parcours">
           <Card name="Parcours" />
         </Link>
-        <Link to="/autodidacte">
+        <Link to="profile/autodidacte">
           <Card name="Autodidacte" />
         </Link>
-        <Link to="/motivations">
+        <Link to="profile/motivations">
           <Card name="Motivations" />
         </Link>
+        <Outlet />
       </main>
     </>
   );

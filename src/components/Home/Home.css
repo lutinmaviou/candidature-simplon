@@ -14,3 +14,25 @@
   position: relative;
   margin-top: 6%;
 }
+
+.cards-container a {
+  color: #ffffff;
+  border: 0.3vw solid #ffffff;
+  border-radius: 4%; 
+  width: 25%;
+  height: 15vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.cards-container h2{
+  font-size: 5vw;
+  font-weight: lighter;
+}
+
+.cards-container a:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}

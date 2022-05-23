@@ -1,9 +1,7 @@
 import React from 'react';
-import './Card.css';
 
 const Card = ({ name }) => {
-  console.log(name);
-  return <div className="card">{name}</div>;
+  return <h2>{name}</h2>;
 };
 
 export default Card;
