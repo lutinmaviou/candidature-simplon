@@ -1,0 +1,26 @@
+.learned-container {
+  position: absolute;
+  top: 40%;
+  z-index: 1;
+  width: 100%;
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+.learned-text {
+  width: 60%;
+  padding: 1vw 3vw;
+  text-align: justify;
+  margin: 5vw;
+  text-shadow: 0.05vw 0.05vw white;
+  border-radius: 0.5vw;
+  background: rgb(255, 234, 234);
+}
+
+.learned-date {
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  font-size: 10vw;
+  opacity: 0.5;
+}

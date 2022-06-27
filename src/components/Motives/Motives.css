@@ -1,0 +1,45 @@
+.motives-container h1 {
+  font-size: 4vw;
+  text-align: center;
+  color: rgb(81, 81, 81);
+  margin-top: 7vw;
+  margin-bottom: 2vw;
+}
+
+.motives-container h2 {
+  color: rgb(81, 81, 81);
+  margin: 6vw 0 3vw;
+  color: rgb(207, 0, 0);
+}
+
+.motives-wrapper {
+  background: url('../../assets/img/axiom-pattern.png') rgb(31, 31, 31);
+  padding: 5vw 0;
+}
+
+.motives {
+  width: 50%;
+  margin: 0 auto;
+  padding: 1vw 3vw;
+  background: #fffbed;
+  font-size: 1.6vw;
+  line-height: 1.9vw;
+  text-align: justify;
+  box-shadow: 0 0 1vw #fffbed;
+}
+
+.motives a:hover {
+  color: orangered;
+}
+
+.motives ul {
+  list-style-type: '-  ';
+  padding-left: 3vw;
+}
+
+.enjoy-working {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2vw;
+}

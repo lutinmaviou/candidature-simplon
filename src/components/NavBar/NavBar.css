@@ -1,10 +1,11 @@
-nav {
+.main-nav {
   position: fixed;
   width: 100%;
   top: 0%;
+  z-index: 100;
 }
 
-nav ul {
+.main-nav ul {
   width: 100%;
   margin: 0;
   height: 5vw;
@@ -15,20 +16,25 @@ nav ul {
   color: white;
 }
 
-nav a {
+.main-nav a {
   color: white;
   font-size: 2.3vw;
 }
 
-nav ul li {
-  list-style-type: none;
+.main-nav ul li {
   transition: 0.2s;
 }
 
-nav ul li:hover {
-  transform: scale(1.2);
+.main-nav ul li a.active {
+  color: black;
+  text-shadow: 0.12vw 0.12vw 0.8vw white;
 }
 
-nav ul li:hover a {
-  color: rgb(7, 96, 104);
+.main-nav ul li:hover {
+  transform: scale(1.25);
+}
+
+.main-nav ul li:hover a {
+  color: black;
+  text-shadow: 0.12vw 0.12vw 0.8vw white;
 }

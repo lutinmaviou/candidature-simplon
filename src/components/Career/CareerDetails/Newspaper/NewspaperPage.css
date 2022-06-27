@@ -1,0 +1,228 @@
+.newspaper-wrapper {
+  position: relative;
+  z-index: 2;
+  top: 4vw;
+  width: 80%;
+}
+
+.paper {
+  width: 65%;
+}
+
+.page-1,
+.page-2,
+.page-3 {
+  transform-origin: top left;
+  animation: hinge 0.7s ease-in-out paused;
+}
+
+.page-1 {
+  transform: rotateZ(1deg);
+}
+
+.page-3 {
+  transform: rotateZ(-1deg);
+}
+
+.page-2,
+.page-3 {
+  position: absolute;
+}
+
+.content-h3 {
+  text-transform: uppercase;
+}
+
+.content-subtitle {
+  margin-top: -0.7vw;
+}
+
+#bac-text {
+  width: 55%;
+  margin: 0 auto;
+  font-size: 1vw;
+  margin-top: -25vw;
+  position: relative;
+  text-align: justify;
+}
+
+#bac-text h3 {
+  text-align: center;
+  margin-bottom: 2.5vw;
+  font-size: 1.3vw;
+}
+
+#change-text {
+  width: 55%;
+  text-align: justify;
+  font-size: 1vw;
+  margin: 0 auto;
+  margin-top: -25vw;
+  position: relative;
+  z-index: 1000;
+}
+
+#change-text h3 {
+  text-align: center;
+  margin-bottom: 1.5vw;
+  font-size: 1.3vw;
+}
+
+#change-text p {
+  margin-bottom: 0.5vw;
+}
+
+#skills-text {
+  width: 55%;
+  text-align: justify;
+  font-size: 1vw;
+  margin: 0 auto;
+  margin-top: -25vw;
+  position: relative;
+  z-index: 1000;
+}
+
+#skills-text h3 {
+  text-align: center;
+  margin-bottom: 1.5vw;
+  font-size: 1.3vw;
+}
+
+#diploma {
+  width: 15%;
+  float: left;
+  margin: 0.5vw 0.5vw;
+}
+
+#oc {
+  width: 35%;
+  position: absolute;
+  top: 60%;
+  left: 32%;
+  z-index: -0;
+  opacity: 0.1;
+}
+
+#smiley-blink {
+  position: absolute;
+  bottom: 12%;
+  left: 27.5%;
+  width: 2%;
+}
+
+.fingers-container {
+  width: 80%;
+  position: relative;
+  top: 6%;
+  left: -0.5%;
+}
+
+.fcp2 {
+  margin-top: 2vw;
+}
+
+.right-finger_page1,
+.right-finger_page2,
+.left-finger_page3,
+.left-finger {
+  cursor: pointer;
+}
+
+.right-finger_page1 {
+  position: relative;
+  right: -27%;
+  bottom: -10%;
+  width: 5%;
+  animation: signal-right 1s ease-in-out infinite;
+}
+
+.right-finger_page2 {
+  position: relative;
+  width: 6%;
+  animation: signal-right 1s ease-in-out infinite;
+}
+
+.left-finger {
+  position: relative;
+  right: -26%;
+  bottom: -10%;
+  width: 6%;
+  animation: signal-left 1s ease-in-out infinite;
+}
+
+.left-finger_page3 {
+  position: relative;
+  left: -27%;
+  margin-top: 2%;
+  width: 5%;
+  animation: signal-left 1s ease-in-out infinite;
+}
+
+.skills-container h4 {
+  text-align: center;
+  margin-top: 1%;
+  text-decoration: underline;
+  width: 110%;
+  margin-left: -5%;
+}
+
+.restau-skills,
+.code-skills {
+  width: 54.9%;
+}
+
+.separator {
+  width: 0.2%;
+  background: black;
+}
+
+.skills-list_restau,
+.skills-list_code {
+  flex-wrap: wrap;
+  list-style-type: disc;
+  padding: 0%;
+}
+
+.list {
+  text-align: left;
+}
+
+.skills-list_restau {
+  margin-right: 1vw;
+}
+
+.skills-list_code {
+  margin-left: 2vw;
+}
+
+.skills-list_item {
+  width: 48%;
+}
+
+@keyframes hinge {
+  30% {
+    transform: rotate(50deg);
+    transform: translateX(-10vw);
+  }
+  100% {
+    transform: translateY(80rem);
+  }
+}
+
+@keyframes signal-right {
+  50% {
+    transform: translateX(-0.5rem);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes signal-left {
+  50% {
+    transform: translateX(0.5rem);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

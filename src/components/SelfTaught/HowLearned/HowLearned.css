@@ -1,0 +1,82 @@
+.howLearned-container {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  width: 100%;
+  font-size: 1.5vw;
+  font-weight: bold;
+  background: url('../../../assets/img/shattered-dark.png');
+  background-color: rgb(255, 33, 33);
+  color: white;
+}
+
+.howLearned-container h2 {
+  text-align: center;
+  font-size: 5vw;
+}
+
+.formations {
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 2vw;
+}
+
+.formations h3 {
+  color: rgb(255, 225, 0);
+  font-size: 3vw;
+  margin: 1vw;
+}
+
+.formation-item {
+  border: 1px solid;
+  margin: 4vw 0;
+  padding: 1vw;
+  box-shadow: 0.2vw 0.2vw 1vw;
+}
+
+.ressource-list {
+  list-style-type: circle;
+}
+
+.formations-list {
+  width: 50%;
+  align-items: left;
+}
+
+.formations-img {
+  width: 50%;
+  align-items: center;
+}
+
+.formations-img,
+.formations-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tutos,
+.books,
+.tech {
+  margin: 0 auto;
+  padding-bottom: 2vw;
+  width: 60%;
+}
+
+.tutos-list,
+.books-list,
+.tech-list {
+  text-align: center;
+  padding: 2vw;
+  border: 1px solid rgb(255, 225, 0);
+  box-shadow: 0.2vw 0.2vw 1vw rgb(255, 225, 0);
+  font-size: 2vw;
+}
+
+.card {
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.2);
+}

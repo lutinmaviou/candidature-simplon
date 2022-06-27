@@ -1,0 +1,46 @@
+.header-container {
+  width: 60%;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 2.5vw;
+}
+
+.header-pictures{
+  margin-bottom: -2vw;
+  margin-top: -9vw;
+}
+
+.title {
+  font-size: 5vw;
+  font-weight: lighter;
+  text-shadow: #dbdbdb 1px 0 8px;
+  margin-top: 1.6vw;
+}
+
+.paparazzi-img {
+  padding-top: 2vw;
+  width: 17%;
+  height: 17%;
+
+}
+
+.limited-img{
+  width: 17%;
+  height: 17%;
+  padding-top: 1.5vw;
+}
+
+.headband{
+  width: 90%;
+  font-size: 1vw;
+  margin: -1.8vw auto;
+  padding: 0.3vw 0;
+  border-top: 0.15vw solid black;
+  border-bottom: 0.15vw solid black;
+}
+
+.headband-item{
+  padding: 0 3vw;
+}

@@ -1,0 +1,44 @@
+.subnav-container {
+  height: 3vw;
+  z-index: 10;
+  box-shadow: 0 2vw 1vw white;
+  background: white;
+}
+
+.career-subnav {
+  width: 60%;
+  margin: -0.4vw auto;
+  display: flex;
+  justify-content: space-around;
+  z-index: 10;
+  background: white;
+}
+
+.career-subnav_item {
+  position: relative;
+  text-align: center;
+  width: 50%;
+  font-size: 1.3vw;
+  font-weight: bold;
+  padding: 0.7vw 0;
+  color: rgb(68, 68, 68);
+  border-right: 0.1vw solid rgb(255, 87, 87);
+  border-left: 0.1vw solid rgb(255, 87, 87);
+  border-radius: 1vw;
+}
+
+.career-subnav_item.active {
+  border-top: 0.15vw solid rgb(255, 87, 87);
+  border-bottom: 0.15vw solid rgb(255, 87, 87);
+  border-radius: 1vw;
+  margin-top: -0.15vw;
+  margin-bottom: -0.15vw;
+}
+
+.career-subnav_item:hover {
+  border-top: 0.15vw solid rgb(255, 87, 87);
+  border-bottom: 0.15vw solid rgb(255, 87, 87);
+  border-radius: 1vw;
+  margin-top: -0.15vw;
+  margin-bottom: -0.15vw;
+}

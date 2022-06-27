@@ -1,22 +1,22 @@
 import React from 'react';
 import './Navbar.css';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <nav className="owl">
+    <nav className="main-nav owl">
       <ul>
         <li>
-          <Link to="/">Accueil</Link>
+          <NavLink to="/">Accueil</NavLink>
         </li>
         <li>
-          <Link to="/profile/parcours">Parcours</Link>
+          <NavLink to="/parcours/detail">Parcours</NavLink>
+        </li>
+        <li className="selfTaught-link">
+          <NavLink to="/autodidacte/ce-que-j'ai-appris">Autodidacte</NavLink>
         </li>
         <li>
-          <Link to="/profile/autodidacte">Autodidacte</Link>
-        </li>
-        <li>
-          <Link to="/profile/motivations">Motivations</Link>
+          <NavLink to="/motivations">Motivations</NavLink>
         </li>
       </ul>
     </nav>
